@@ -32,7 +32,7 @@ public class ExecuteCommandPayloadGenerator implements IHelper {
     }
 
     public void doHelp(Map<String, Object> customArgs, IResultOutput resultOutput) throws Throwable {
-        String command = (String)customArgs.get("commnad");
+        String command = (String)customArgs.get("command");
         String os_type = (String)customArgs.get("os_type");
         String payload = null;
         if(os_type.equalsIgnoreCase("linux")){
@@ -67,6 +67,6 @@ public class ExecuteCommandPayloadGenerator implements IHelper {
                     "</void>",command);
         }
 
-        resultOutput.rawPrintln("/n" + payload + "/n");
+        resultOutput.rawPrintln("\n" + payload + "\n");
     }
 }
