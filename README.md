@@ -11,6 +11,7 @@
 - [x] bcel
 - [x] bcel with arg
 - [x] load jar
+- [x] load jar with arg
 - [x] execute javascript
 
 ## 0x02 截图
