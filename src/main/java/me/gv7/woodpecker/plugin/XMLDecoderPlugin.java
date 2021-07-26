@@ -13,7 +13,7 @@ public class XMLDecoderPlugin implements IHelperPlugin {
         this.callbacks = helperPluginCallbacks;
         this.pluginHelper = callbacks.getPluginHelper();
         callbacks.setHelperPluginName("XMLDecoder payload generator");
-        callbacks.setHelperPluginVersion("0.2.0");
+        callbacks.setHelperPluginVersion("0.3.0");
         callbacks.setHelperPluginAutor("woodpecker-org");
         callbacks.setHelperPluginDescription("Java XMLDecoder反序列化荷载生成器");
         List<IHelper> payloadGeneratorList = new ArrayList<IHelper>();
