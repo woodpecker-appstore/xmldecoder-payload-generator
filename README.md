@@ -9,6 +9,7 @@
 - [x] execute command
 - [x] jndi
 - [x] bcel
+- [x] bcel with arg
 - [x] load jar
 - [x] execute javascript
 
