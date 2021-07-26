@@ -26,6 +26,7 @@ public class XMLDecoderPlugin implements IHelperPlugin {
         payloadGeneratorList.add(new BCELPayloadGenerator());
         payloadGeneratorList.add(new BCELWithArgPayloadGenerator());
         payloadGeneratorList.add(new LoadJarPayloadGenerator());
+        payloadGeneratorList.add(new LoadJarWithArgPayloadGenerator());
         payloadGeneratorList.add(new EvalJavaScriptPayloadGenerator());
         callbacks.registerHelper(payloadGeneratorList);
     }

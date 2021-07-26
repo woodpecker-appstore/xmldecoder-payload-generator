@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 public class XMLDecoderTest {
     public static void main(String[] args) throws Exception{
         //new com.sun.org.apache.bcel.internal.util.ClassLoader().loadClass("").getConstructor(new Class[]{}).newInstance(new Object[]{});
-        File file = new File("xmls/bcel2.xml");
+        File file = new File("xmls/loadjar_with_arg.xml");
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
         XMLDecoder xd = new XMLDecoder(bis);
         Object obj = xd.readObject();
