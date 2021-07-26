@@ -1,0 +1,7 @@
+<java>
+    <object class="java.lang.Thread">
+        <void method="sleep">
+            <long>5000</long>
+        </void>
+    </object>
+</java>

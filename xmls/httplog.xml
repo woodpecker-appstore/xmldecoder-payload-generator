@@ -1,0 +1,6 @@
+<java>
+    <new class="java.net.URL">
+        <string>http://127.0.0.1:1664</string>
+        <void method="getContent"/>
+    </new>
+</java>

