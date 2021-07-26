@@ -9,6 +9,8 @@
 - [x] execute command
 - [x] jndi
 - [x] bcel
+- [x] load jar
+- [x] execute javascript
 
 ## 0x02 截图
 
