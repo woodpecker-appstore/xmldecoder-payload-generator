@@ -9,7 +9,7 @@ import java.util.Map;
 public class LoadJarPayloadGenerator implements IHelper {
 
     public String getHelperTabCaption() {
-        return "loadjar";
+        return "load jar";
     }
 
     public IArgsUsageBinder getHelperCutomArgs() {
