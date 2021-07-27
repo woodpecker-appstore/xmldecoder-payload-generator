@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class EvalJavaScriptPayloadGenerator implements IHelper {
     public String getHelperTabCaption() {
-        return "evil javascript";
+        return "eval javascript";
     }
 
     public IArgsUsageBinder getHelperCutomArgs() {
